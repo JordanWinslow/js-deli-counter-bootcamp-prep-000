@@ -22,6 +22,5 @@ function currentLine(customersInLine) {
       }
     }
   }
-  
   return announcementMessage
 }
