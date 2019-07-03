@@ -16,10 +16,8 @@ function currentLine(customersInLine) {
     var announcementMessage = "The line is currently: "
     for (let customerIndex = 0; customerIndex < customersInLine.length; customerIndex++){
       announcementMessage += (customerIndex + 1) + ". " + customersInLine[customerIndex]
-      //trim the last ", " off the end in an extremely roundabout way...
-      if (customerIndex != customersInLine.length - 1){
-        announcementMessage += ", "
-      }
+      
+      
     }
   }
   return announcementMessage
